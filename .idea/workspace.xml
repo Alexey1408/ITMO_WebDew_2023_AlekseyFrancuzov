@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ff559428-04a1-4255-8110-ab5878016ba7" name="Default Changelist" comment="" />
+    <list default="true" id="ff559428-04a1-4255-8110-ab5878016ba7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +23,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="2NCPLmubVld4nnhIYY29oZ5AKVK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -62,7 +73,10 @@
       <workItem from="1679586738161" duration="7403000" />
       <workItem from="1679617389628" duration="370000" />
       <workItem from="1679755890685" duration="1211000" />
-      <workItem from="1679757131348" duration="5172000" />
+      <workItem from="1679757131348" duration="6558000" />
+      <workItem from="1679850062690" duration="2049000" />
+      <workItem from="1679853519366" duration="72000" />
+      <workItem from="1679853608923" duration="303000" />
     </task>
     <servers />
   </component>
