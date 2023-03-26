@@ -1,0 +1,9 @@
+span {
+    text-decoration: underline;
+    font-weight: 900;
+    color: red;
+}
+
+input {
+    display: block;
+}
