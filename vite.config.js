@@ -5,4 +5,7 @@ export default {
         https: true,
     },
     plugins: [mkcert()],
+    build: {
+        minify: true,
+    },
 };

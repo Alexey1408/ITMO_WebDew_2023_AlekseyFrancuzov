@@ -4,10 +4,60 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Welcom App</title>
+    <style>
+      @import 'images/reset.css';
+      html {
+        font-size: 16px;
+        background-color: #cccccc;
+      }
+      .card {
+        vidth: 144px;
+        margin: 0 auto;
+        text-align: center;
+        border: 1px solid #222;
+      }
+      .card > h1 {
+        font-size: 2rem;
+        line-height: 1.25;
+        font-weight: bold;
+        letter-spacing: 1px;
+        margin-bottom: 0.25rem;
+      }
+      .card img {
+        margin-bottom: 0.5rem;
+      }
+      .cars > .price {
+      color: #666;
+        font-size: 0.75rem;
+        font-weight: bold;
+      }
+      .card .text {
+        font-weight: lighter;
+        font-size: 0.75rem;
+      }
+      p:not(:last-child) {
+        margin-bottom: 1rem;
+      }
+      button {
+        border: none;
+        width: 100%;
+        background-color: black;
+        color: white;
+        padding: 0.5rem 0;
+      }
+      button:hover {
+        background-color: #444;
+      }
+    </style>
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
+  <div class="card">
+    <img src="images/jeans3.jpg" alt="Denim Jeans" style="width:144px">
+    <h1>Tailored Jeans</h1>
+    <p class="price">$19.99</p>
+    <p>Some text about the jeans..</p>
+    <p><button>Add to Cart</button></p>
+  </div>
   </body>
 </html>
