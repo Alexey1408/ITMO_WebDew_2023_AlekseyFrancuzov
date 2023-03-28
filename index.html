@@ -1,63 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="icon" type="image/svg+xml" href="/vite.svg"/>
+  <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Welcom App</title>
     <style>
-      @import 'images/reset.css';
-      html {
-        font-size: 16px;
-        background-color: #cccccc;
-      }
-      .card {
-        vidth: 144px;
-        margin: 0 auto;
-        text-align: center;
-        border: 1px solid #222;
-      }
-      .card > h1 {
-        font-size: 2rem;
-        line-height: 1.25;
-        font-weight: bold;
-        letter-spacing: 1px;
-        margin-bottom: 0.25rem;
-      }
-      .card img {
-        margin-bottom: 0.5rem;
-      }
-      .cars > .price {
-      color: #666;
-        font-size: 0.75rem;
-        font-weight: bold;
-      }
-      .card .text {
-        font-weight: lighter;
-        font-size: 0.75rem;
-      }
-      p:not(:last-child) {
-        margin-bottom: 1rem;
-      }
-      button {
-        border: none;
-        width: 100%;
-        background-color: black;
-        color: white;
-        padding: 0.5rem 0;
-      }
-      button:hover {
-        background-color: #444;
-      }
+      /*  body {*/
+      /*      grid-template-areas:*/
+      /*'header header header'*/
+      /*'nav section aside'*/
+      /*'footer footer footer';*/
+      /*  }*/
+      /*  header {*/
+      /*    grid-area: header;*/
+      /*  }*/
+      /*  nav {*/
+      /*    grid-area: nav;*/
+      /*  }*/
+      /*  section {*/
+      /*    grid-area: section;*/
+      /*  }*/
+      /*  aside {*/
+      /*    grid-area: aside;*/
+      /*  }*/
+      /*  footer {*/
+      /*    grid-area: footer;*/
+      /*  }*/
     </style>
-  </head>
-  <body>
-  <div class="card">
-    <img src="images/jeans3.jpg" alt="Denim Jeans" style="width:144px">
-    <h1>Tailored Jeans</h1>
-    <p class="price">$19.99</p>
-    <p>Some text about the jeans..</p>
-    <p><button>Add to Cart</button></p>
-  </div>
-  </body>
+</head>
+<body>
+<header style="background-color: #f001;">header</header>
+<nav style='background-color: #ff01'>nav</nav>
+<section style='background-color: #f0f1'>section</section>
+<aside style='background-color: #0ff1'>aside</aside>
+<footer style='background-color: #f001'>footer</footer>
+</body>
 </html>
